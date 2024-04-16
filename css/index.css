@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+* {
+	font-family: 'Roboto', sans-serif;
+}
+
+body {
+	background: rgba(60, 60, 60, .5);
+}
+
+.container {
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+.currency-wrapper {
+	width: 340px;
+	height: 270px;
+	background: #FFF;
+	margin: 50px auto;
+	border-radius: 20px;
+	padding: 40px 10px 10px 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 20px;
+}
+
+.swap-button {
+	background: transparent;
+	width: 24px;
+
+}
+
+.currency>h3 {
+	color: #989898;
+}
+
+.currency-select {
+	border: none;
+	color: #26278D;
+	font-weight: 700;
+	background: transparent;
+	font-size: 18px;
+}
+
+.currency-input {
+	background: #EFEFEF;
+	font-size: 20px;
+	padding: 10px;
+	border-radius: 15px;
+}

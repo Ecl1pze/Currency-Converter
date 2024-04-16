@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <title>Currency Convertator</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="currency-wrapper">
+        <div class="currency">
+          <h3>Amount</h3>
+          <select class="currency-select" id="select-from">
+            <option value="RUB">RUB</option>
+            <option value="USD">USD</option>
+            <option value="EUR">EUR</option>
+            <option value="BYN">BYN</option>
+            <option value="BYN">TRY</option>
+          </select>
+          <input type="text" class="currency-input" id="from" />
+        </div>
+        <button class="swap-button">
+          <img src="images/swap-icon.svg" alt="Поменять местами" />
+        </button>
+        <div class="currency">
+          <h3>Amount</h3>
+          <select class="currency-select" id="select-to">
+            <option value="RUB">RUB</option>
+            <option value="USD">USD</option>
+            <option value="EUR">EUR</option>
+            <option value="BYN">BYN</option>
+            <option value="BYN">TRY</option>
+          </select>
+          <input type="text" class="currency-input" id="to" />
+        </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
